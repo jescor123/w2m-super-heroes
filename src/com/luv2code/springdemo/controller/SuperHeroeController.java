@@ -57,11 +57,20 @@ public class SuperHeroeController {
 
 	// add mapping to DELETE SuperHeroe
 	@GetMapping("/delete/{id}")
-	public void deleteCustomer(@PathVariable int id) {
+	public void deleteSuperHeroe(@PathVariable int id) {
 
 		superHeroeService.deleteSuperHeroe(id);		
 		System.out.println("SuperHeroe deleted");
 
+	}
+	
+	
+	// add mapping to GET SuperHeroe BY ID
+	@GetMapping(value= "/getSuperHeroe/{id}", produces= "application/vnd.jcg.api.v1+json")
+	public SuperHeroe getSuperHeroeById(@PathVariable int id) {
+
+		return superHeroeService.getSuperHeroeById(id);		
+		
 	}
 	
 }
