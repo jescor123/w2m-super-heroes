@@ -13,5 +13,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="C:/Users/USUARIO/eclipse-workspace/SrpingMVC_Udemy_Course/w2m-super-heroes/WebContent/WEB-INF/lib/jsonassert-1.2.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
